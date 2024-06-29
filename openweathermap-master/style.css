@@ -1,0 +1,189 @@
+/* *{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Nunito",sans-serif;
+  background: #f8f8f8;
+}
+
+.input{
+  text-align: center;
+  margin: 100px auto;
+}
+
+input[type="submit"]{
+  padding: 15px 30px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.input input[type="text"]{
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.card{
+  width: 50%;
+  background: #e7e7e7;
+  height: 40vh;
+  margin: 50px auto;
+  border-radius: 2px;
+}
+
+
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.card h1{
+  padding: 5px 0;
+  text-align: center;
+}
+
+.card p{
+  text-align: center;
+  margin:40px 0;
+  font-size:20px;
+} */
+
+
+/* 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background: #f8f8f8;
+  transition: background 0.5s;
+}
+
+.input {
+  text-align: center;
+  margin: 50px auto;
+}
+
+input[type="submit"] {
+  padding: 15px 30px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.input input[type="text"] {
+  width: 300px;
+  height: 40px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.8);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h1, .card p {
+  text-align: center;
+}
+
+.card p {
+  margin: 10px 0;
+  font-size: 16px;
+} */
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('images/bg2.png') no-repeat center center/cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e90ff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-item {
+  margin: 10px 0;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+}
